@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/YOLOv8/laptop_mouse_dataset/train/images
+val: /content/drive/MyDrive/YOLOv8/laptop_mouse_dataset/valid/images
+test: /content/drive/MyDrive/YOLOv8/laptop_mouse_dataset/test/images
+
+nc: 2
+names: ['laptop', 'mouse']
+
+roboflow:
+  workspace: estu-qjt4d
+  project: laptop-and-mouse
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/estu-qjt4d/laptop-and-mouse/dataset/1
