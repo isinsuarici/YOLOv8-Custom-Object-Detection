@@ -7,4 +7,7 @@ Roboflow was used for the labeling process. A total of 93 images were used, cons
 ```
 pip install ultralytics
 ```
-
+## Steps to Run Code
+* To get started, create a new folder in your Drive account and upload the dataset, data.yaml, and yolov8.ipynb files into it. <br>
+* In the data.yaml file, replace the train, val, and test paths with the file paths in your own Drive account. <br>
+* Finally, open the yolov8.ipynb file and run it to begin the process.
