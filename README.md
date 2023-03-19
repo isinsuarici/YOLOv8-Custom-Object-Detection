@@ -11,3 +11,9 @@ pip install ultralytics
 * To get started, create a new folder in your Drive account and upload the dataset, data.yaml, and yolov8.ipynb files into it. <br>
 * In the data.yaml file, replace the train, val, and test paths with the file paths in your own Drive account. <br>
 * Finally, open the yolov8.ipynb file and run it to begin the process.
+
+## Evaluation
+The graph below illustrates the values for mAP, loss, precision, and recall. <br>
+![results](https://user-images.githubusercontent.com/44557162/226151766-c2425e28-041e-4e3b-87cf-f6a3d2b90a8d.png)
+### Confusion Matrix:
+![confusion_matrix](https://user-images.githubusercontent.com/44557162/226151770-5e2a5836-4975-406a-b797-5e6e678f953f.png)
