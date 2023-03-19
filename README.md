@@ -29,6 +29,6 @@ Run the following command:
 ```
 !yolo task=detect mode=predict model=runs/detect/train/weights/best.pt conf=0.5 source=laptop_mouse_dataset/test/videos/z.mp4 save=True
 ```
-the result is: <br><br>
+Here is the final outcome: <br><br>
 ![video](https://user-images.githubusercontent.com/44557162/226155597-1227f651-7598-439a-9499-48b69af5659b.gif)
 
