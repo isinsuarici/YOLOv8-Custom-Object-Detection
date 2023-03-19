@@ -25,4 +25,9 @@ The graph below illustrates the values for mAP, loss, precision, and recall. <br
 
 
 ## Results
+Run the following command:
+'''
+!yolo task=detect mode=predict model=runs/detect/train/weights/best.pt conf=0.5 source=laptop_mouse_dataset/test/videos/z.mp4 save=True
+'''
+the result is:
 
